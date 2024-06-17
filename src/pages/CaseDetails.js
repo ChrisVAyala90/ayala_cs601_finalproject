@@ -38,7 +38,7 @@ function CaseDetails() {
     <div className="case-details-container" role="main" aria-labelledby="case-details-heading">
       <h2 id="case-details-heading">Case Details for {caseDetails.name}</h2>
       <div className="case-details">
-        <img src={caseDetails.image} alt={`Image of ${caseDetails.name}`} className="case-image" />
+        <img src={`${process.env.PUBLIC_URL}${caseDetails.image}`} alt={`Image of ${caseDetails.name}`} className="case-image" />
         <p><strong>Name:</strong> {caseDetails.name}</p>
         <p><strong>Case Number:</strong> {caseDetails.caseNumber}</p>
         <p><strong>Attorney:</strong> {caseDetails.attorney}</p>

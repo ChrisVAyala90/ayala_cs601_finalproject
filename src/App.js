@@ -17,12 +17,12 @@ function App() {
         <Header />
         <main className="app-main">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/new-case" element={<NewCase />} />
-            <Route path="/active-cases" element={<ActiveCases />} />
-            <Route path="/attorneys" element={<Attorneys />} />
-            <Route path="/kanban" element={<KanbanBoard />} />
-            <Route path="/case/:id" element={<CaseDetails />} />
+          <Route path="/ayala_cs601_finalproject/" element={<Home />} />
+          <Route path="/ayala_cs601_finalproject/new-case" element={<NewCase />} />
+          <Route path="/ayala_cs601_finalproject/active-cases" element={<ActiveCases />} />
+          <Route path="/ayala_cs601_finalproject/attorneys" element={<Attorneys />} /> 
+          <Route path="/ayala_cs601_finalproject/kanban" element={<KanbanBoard />} />
+          <Route path="/ayala_cs601_finalproject/case/:id" element={<CaseDetails />} />
           </Routes>
         </main>
         <Footer />
