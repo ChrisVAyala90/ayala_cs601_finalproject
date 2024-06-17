@@ -74,4 +74,4 @@
 
 ### Hosted Website
 
-I have hosted this website on GitHub Pages. Please follow this link to visit: [https://chrisvayala90.github.io/cs601_finalproject_ayala/](https://chrisvayala90.github.io/cs601_finalproject_ayala/).
+I have hosted this website on GitHub Pages. Please follow this link to visit: [https://chrisvayala90.github.io/ayala_cs601_finalproject/](https://chrisvayala90.github.io/ayala_cs601_finalproject/).
