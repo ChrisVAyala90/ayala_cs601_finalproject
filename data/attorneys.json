@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "name": "Eric Nelson",
+        "image":  "/images/attorneys/eric.jpg",
+        "hometown": "Minneapolis, MN",
+        "lawSchool": "Harvard Law School",
+        "description": "Eric has over 20 years of experience in criminal defense.",
+        "email": "eric.nelson@example.com"
+    },
+    {
+        "id": 2,
+        "name": "Charlie Smith",
+        "image": "/images/attorneys/charlie.jpg",
+        "hometown": "St. Paul, MN",
+        "lawSchool": "Yale Law School",
+        "description": "Charlie specializes in white-collar crimes and has a strong track record.",
+        "email": "charlie.smith@example.com"
+    },
+    {
+        "id": 3,
+        "name": "Allison Johnson",
+        "image":  "/images/attorneys/allison.jpg",
+        "hometown": "Duluth, MN",
+        "lawSchool": "Stanford Law School",
+        "description": "Allison is known for her dedication to client advocacy.",
+        "email": "allison.johnson@example.com"
+    },
+    {
+        "id": 4,
+        "name": "Marsh Brown",
+        "image":  "/images/attorneys/marsh.jpg",
+        "hometown": "Rochester, MN",
+        "lawSchool": "Columbia Law School",
+        "description": "Marsh has a keen eye for detail and a winning record in court.",
+        "email": "marsh.brown@example.com"
+    },
+    {
+        "id": 5,
+        "name": "Lily White",
+        "image":  "/images/attorneys/lily.jpg",
+        "hometown": "Bloomington, MN",
+        "lawSchool": "University of Chicago Law School",
+        "description": "Lily is an expert in criminal law with numerous accolades.",
+        "email": "lily.white@example.com"
+    }
+]
