@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "statutes": "Statute 1, Statute 2",
+        "caseNumber": "12345",
+        "county": "Hennepin",
+        "state": "MN",
+        "date": "2023-01-15",
+        "description": "Description of charges against John Doe.",
+        "image":  "/images/clients/doe.jpg",
+        "attorney": "Eric Nelson"
+    },
+    {
+        "id": 2,
+        "name": "Alice Johnson",
+        "statutes": "Statute 3, Statute 4",
+        "caseNumber": "67890",
+        "county": "Ramsey",
+        "state": "MN",
+        "date": "2023-02-20",
+        "description": "Description of charges against Alice Johnson.",
+        "image":  "/images/clients/johnson.jpg",
+        "attorney": "Charlie Smith"
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "statutes": "Statute 5, Statute 6",
+        "caseNumber": "11223",
+        "county": "Dakota",
+        "state": "MN",
+        "date": "2023-03-10",
+        "description": "Description of charges against Michael Brown.",
+        "image":  "/images/clients/brown.jpg",
+        "attorney": "Allison Johnson"
+    },
+    {
+        "id": 4,
+        "name": "Emily Davis",
+        "statutes": "Statute 7, Statute 8",
+        "caseNumber": "44556",
+        "county": "Anoka",
+        "state": "MN",
+        "date": "2023-04-25",
+        "description": "Description of charges against Emily Davis.",
+        "image":  "/images/clients/davis.jpg",
+        "attorney": "Marsh Brown"
+    },
+    {
+        "id": 5,
+        "name": "Daniel Wilson",
+        "statutes": "Statute 9, Statute 10",
+        "caseNumber": "77889",
+        "county": "Washington",
+        "state": "MN",
+        "date": "2023-05-30",
+        "description": "Description of charges against Daniel Wilson.",
+        "image":  "/images/clients/wilson.jpg",
+        "attorney": "Lily White"
+    }
+]
