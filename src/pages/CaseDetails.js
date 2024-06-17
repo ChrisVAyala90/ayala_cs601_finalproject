@@ -8,7 +8,7 @@ function CaseDetails() {
   const [caseDetails, setCaseDetails] = useState(null);
 
   useEffect(() => {
-    fetch('/data/activeCases.json')
+    fetch('${process.env.PUBLIC_URL}/data/activeCases.json')
       .then(response => response.json())
       .then(data => {
         const caseItem = data.find(c => c.id === parseInt(id));

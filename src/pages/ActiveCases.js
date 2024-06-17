@@ -6,7 +6,7 @@ function ActiveCases() {
   const [cases, setCases] = useState([]);
 
   useEffect(() => {
-    fetch('/data/activeCases.json')
+    fetch('${process.env.PUBLIC_URL}/data/activeCases.json')
       .then(response => response.json())
       .then(data => setCases(data));
   }, []);

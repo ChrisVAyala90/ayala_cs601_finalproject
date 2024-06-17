@@ -5,7 +5,7 @@ function Attorneys() {
   const [attorneys, setAttorneys] = useState([]);
 
   useEffect(() => {
-    fetch('/data/attorneys.json')
+    fetch('${process.env.PUBLIC_URL}/data/attorneys.json')
       .then(response => response.json())
       .then(data => setAttorneys(data));
   }, []);
