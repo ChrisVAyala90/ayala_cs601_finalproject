@@ -44,7 +44,6 @@
   color: #30c493;
 }
 
-/* Responsive design for small screens */
 @media (max-width: 768px) {
   .header-content {
     flex-direction: column;
