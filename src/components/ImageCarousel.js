@@ -6,15 +6,15 @@ import './ImageCarousel.css';
 const ImageCarousel = () => {
   const images = [
     {
-      src: '/images/hero1.jpg',
+      src: '${process.env.PUBLIC_URL}/images/hero1.jpg',
       alt: 'Photo of a law library'
     },
     {
-      src: '/images/hero2.jpg',
+      src: '${process.env.PUBLIC_URL}/images/hero2.jpg',
       alt: 'Photo of Lady Justice statue'
     },
     {
-      src: '/images/hero3.jpg',
+      src: '${process.env.PUBLIC_URL}/images/hero3.jpg',
       alt: 'Photo of a law statue'
     }
   ];
