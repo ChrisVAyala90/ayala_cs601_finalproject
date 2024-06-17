@@ -1,0 +1,54 @@
+.new-case-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: #08292f;
+}
+
+.new-case-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.new-case-form label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.new-case-form input,
+.new-case-form textarea,
+.new-case-form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.new-case-form input[type="file"] {
+  border: none;
+}
+
+.new-case-form button {
+  padding: 10px 20px;
+  background-color: #044760;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.new-case-form button:hover {
+  background-color: #30c493;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
