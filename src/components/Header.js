@@ -9,11 +9,11 @@ const Header = () => {
         <h1 className="logo">Marshall</h1>
         <nav className="nav" role="navigation" aria-label="Main Navigation">
           <ul className="nav-links">
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/new-case">New Case</Link></li>
-            <li><Link to="/active-cases">Active Cases</Link></li>
-            <li><Link to="/attorneys">Attorneys</Link></li>
-            <li><Link to="/kanban">Kanban</Link></li>
+            <li><Link to="/" aria-label="Home">Home</Link></li>
+            <li><Link to="/new-case" aria-label="New Case">New Case</Link></li>
+            <li><Link to="/active-cases" aria-label="Active Cases">Active Cases</Link></li>
+            <li><Link to="/attorneys" aria-label="Attorneys">Attorneys</Link></li>
+            <li><Link to="/kanban" aria-label="Kanban">Kanban</Link></li>
           </ul>
         </nav>
       </div>
