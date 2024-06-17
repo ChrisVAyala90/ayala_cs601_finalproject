@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './KanbanBoard.css';
 
-const initialColumns = () => ({
+const initialColumns = {
   backlog: {
     name: 'Backlog',
     items: []
@@ -22,7 +22,7 @@ const initialColumns = () => ({
     name: 'Closed',
     items: []
   }
-});
+};
 
 const KanbanBoard = () => {
   const [columns, setColumns] = useState(initialColumns);
@@ -30,10 +30,10 @@ const KanbanBoard = () => {
 
   useEffect(() => {
     if (!dataLoaded) {
-      fetch('${process.env.PUBLIC_URL}/data/activeCases.json')
+      fetch(`${process.env.PUBLIC_URL}/data/activeCases.json`)
         .then(response => response.json())
         .then(data => {
-          const updatedColumns = initialColumns();
+          const updatedColumns = { ...initialColumns };
           data.forEach(item => {
             updatedColumns.backlog.items.push({ ...item, status: 'backlog' });
           });
