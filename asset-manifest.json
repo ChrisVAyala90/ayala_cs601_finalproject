@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ayala_cs601_finalproject/static/css/main.df9b5b0c.css",
-    "main.js": "/ayala_cs601_finalproject/static/js/main.0803480b.js",
+    "main.js": "/ayala_cs601_finalproject/static/js/main.4f8ad8dc.js",
     "static/js/239.2ce717eb.chunk.js": "/ayala_cs601_finalproject/static/js/239.2ce717eb.chunk.js",
     "static/js/213.3218b749.chunk.js": "/ayala_cs601_finalproject/static/js/213.3218b749.chunk.js",
     "static/js/732.4f5aed41.chunk.js": "/ayala_cs601_finalproject/static/js/732.4f5aed41.chunk.js",
     "static/js/453.bfe55fe8.chunk.js": "/ayala_cs601_finalproject/static/js/453.bfe55fe8.chunk.js",
     "index.html": "/ayala_cs601_finalproject/index.html",
     "main.df9b5b0c.css.map": "/ayala_cs601_finalproject/static/css/main.df9b5b0c.css.map",
-    "main.0803480b.js.map": "/ayala_cs601_finalproject/static/js/main.0803480b.js.map",
+    "main.4f8ad8dc.js.map": "/ayala_cs601_finalproject/static/js/main.4f8ad8dc.js.map",
     "239.2ce717eb.chunk.js.map": "/ayala_cs601_finalproject/static/js/239.2ce717eb.chunk.js.map",
     "213.3218b749.chunk.js.map": "/ayala_cs601_finalproject/static/js/213.3218b749.chunk.js.map",
     "732.4f5aed41.chunk.js.map": "/ayala_cs601_finalproject/static/js/732.4f5aed41.chunk.js.map",
@@ -16,6 +16,6 @@
   },
   "entrypoints": [
     "static/css/main.df9b5b0c.css",
-    "static/js/main.0803480b.js"
+    "static/js/main.4f8ad8dc.js"
   ]
 }
