@@ -31,7 +31,7 @@ function CaseDetails() {
   };
 
   if (!caseDetails) {
-    return <p>Loading...</p>;
+    return <p>Hmmm... we're strugging to load this.</p>;
   }
 
   return (
