@@ -3,10 +3,10 @@ import './HamburgerMenu.css';
 
 const HamburgerMenu = ({ isOpen, toggleMenu }) => {
   return (
-    <div className={`hamburger-menu ${isOpen ? 'open' : ''}`} onClick={toggleMenu}>
-      <div className="bar"></div>
-      <div className="bar"></div>
-      <div className="bar"></div>
+    <div className="hamburger" onClick={toggleMenu}>
+      <span className={`bar ${isOpen ? 'open' : ''}`}></span>
+      <span className={`bar ${isOpen ? 'open' : ''}`}></span>
+      <span className={`bar ${isOpen ? 'open' : ''}`}></span>
     </div>
   );
 };

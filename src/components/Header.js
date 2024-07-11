@@ -4,17 +4,18 @@ import './Header.css';
 import HamburgerMenu from './HamburgerMenu';
 
 const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
+    setIsOpen(!isOpen);
   };
 
   return (
     <header className="header">
       <div className="header-content">
         <h1 className="logo">Marshall</h1>
-        <nav className={`nav ${isMenuOpen ? 'open' : ''}`}>
+        <HamburgerMenu isOpen={isOpen} toggleMenu={toggleMenu} />
+        <nav className={`nav ${isOpen ? 'open' : ''}`}>
           <ul className="nav-links">
             <li><Link to="/">Home</Link></li>
             <li><Link to="/new-case">New Case</Link></li>
@@ -23,7 +24,6 @@ const Header = () => {
             <li><Link to="/kanban">Kanban</Link></li>
           </ul>
         </nav>
-        <HamburgerMenu isOpen={isMenuOpen} toggleMenu={toggleMenu} />
       </div>
     </header>
   );
