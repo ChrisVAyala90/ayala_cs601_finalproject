@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <h1 className="logo">Marshall</h1>
+        <h1 className="logo">nexusJD</h1>
         <HamburgerMenu isOpen={isOpen} toggleMenu={toggleMenu} />
         <nav className={`nav ${isOpen ? 'open' : ''}`}>
           <ul className="nav-links">
